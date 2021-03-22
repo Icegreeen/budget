@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    
+
+    <title>Budget</title>
+</head>
+
+<body>
+    <div class="container">        
+    <section>
+        <div class="sessao-orcamento">
+            <div class="orcamento-wrapper">
+                <h1>Faça um orçamento</h1>
+                <div class="griid">
+                <form>
+                    <label for="qtde">Number of pages</label>
+                    <input type="number" min="1" name="qtde" id="qtde">
+
+                    <label for="js">I need a script JS</label>
+                    <input type="checkbox" name="js" id="js">
+
+                    <label>Layout</label>
+                    <div class="group-layout">
+                        <div>
+                            <input type="radio" name="layout"  id="layout-sim">
+                            <label for="layout-sim">Yes</label>
+
+                            <input type="radio" name="layout" id="layout-nao">
+                            <label for="layout-nao">No</label>
+                        </div>
+                        
+                    </div>
+                    <label for="prazo">Deadline</label>
+                    <input type="range" name="prazo" id="prazo" min="1" max="10">
+                    <label id="preco">R$ 0,00</label>
+                    <button class="btn btn-orcamento" type="submit">Enviar</button>
+                </form>
+
+                <div class="font-card" >
+                    <img src="img/darlene2.png" class="img">
+                    <h3 class="">Darlene Alderson</h3>
+                    <p class="#">Developer Front-end</p>
+                    <a target="_blank" href="#" class="explore-button">+ Conectar</a>
+                  </div>
+             </div>
+
+            </div>
+        </div>
+     </section>
+
+    </div>
+</body>
+
+<script src="script.js"></script>
+</html>
